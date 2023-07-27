@@ -15,4 +15,15 @@
   padding: 1rem;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
+  font-weight: bold;
+  color: #333333;
+}
+.parole {
+  color: #6a889c;
+}
+.parole :nth-of-type(1) {
+  display: none;
+}
+.parole :nth-of-type(2) {
+  display: none;
 }
