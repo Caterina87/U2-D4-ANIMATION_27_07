@@ -1,33 +1,55 @@
 @import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
 
 .container {
-  width: 90%;
+  margin-top: 10%;
   background-color: #666666;
   display: flex;
-  padding: 1rem;
-  flex-wrap: wrap;
+  padding: 2rem;
   font-family: "Itim", cursive;
+  align-content: space-around;
+  gap: 25px;
+  flex-wrap: wrap;
 }
 
 .p1,
 .p5,
 .p7 {
-  width: 15%;
-  height: 15%;
-  padding: 1rem;
+  width: 16%;
+  height: 150px;
+  padding: 2rem;
   background-color: #f9fac8;
   text-align: center;
+  box-shadow: 0 10px 30px -4px rgb(0 0 0 / 40%);
+  transform: rotate(-6deg);
 }
 .p2,
 .p4,
 .p8 {
-  width: 15%;
+  width: 16%;
+  height: 150px;
   background-color: #c8f8ca;
+  text-align: center;
+  padding: 2rem;
+  box-shadow: 0 10px 30px -4px rgb(0 0 0 / 40%);
+  transform: rotate(7deg);
 }
 .p3,
 .p6 {
-  width: 15%;
+  width: 16%;
+  height: 150px;
   background-color: #c6c6f1;
+  text-align: center;
+  padding: 2rem;
+  box-shadow: 0 10px 30px -4px rgb(0 0 0 / 40%);
+  transform: rotate(-6deg);
 }
 h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-block: 1.5rem;
+}
+p {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-block: 1.5rem;
 }
